@@ -80,7 +80,7 @@ export default function TextBox(props) {
             <h1>Your Text Summery</h1>
             {/* <p>3542 words and 35245562 characters</p> */}
             <p>{word_count.length} words and {text.length} characters</p>
-            <p>{word_count.length > 0 ? word_minut : "( Not Available )"} Minutes read & {word_count.length > 0 ? word_second : "( Not Available )"} Second Read</p>
+            <p>{word_count.length > 0 ? word_minut : "( Not Available )"} Minutes1 read & {word_count.length > 0 ? word_second : "( Not Available )"} Second Read</p>
             <h2>Preview</h2>
             <span>{word_count.length > 0 ? text : "Nothing to Preview"}</span>
         </div>
